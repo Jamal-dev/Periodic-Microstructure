@@ -2,7 +2,7 @@
 
 Microstructures can repeat themselves in a structure in a periodic manner or in an aperiodic manner. Some analytical solutions exist in the literature for periodic microstructures. For instance, [Barbero et al.](#references) developed explicit formulas for a composite reinforced by isotropic, circular-cylindrical fibers, which are periodically arranged in a squared array (see Figure in the paper).
 
-In the following text, we always assume that the fibers are aligned with the x-axis. These fibers are equally spaced with a distance of $2a_2$ in the direction of the y-axis and with a distance of 2a3 in the direction of the z-axis. For the case of square symmetry, we assume $2a_2 = 2a_3$, leading to 6 unique components for the stiffness tensor.
+In the following text, we always assume that the fibers are aligned with the x-axis. These fibers are equally spaced with a distance of $2a_2$ in the direction of the y-axis and with a distance of $2a_3$ in the direction of the z-axis. For the case of square symmetry, we assume $2a_2 = 2a_3$, leading to 6 unique components for the stiffness tensor.
 
 Let $λ_m$ and $μ_m$ be the Lamé parameters for the matrix, and $λ_f$ and $μ_f$ be the parameters for the fiber material. Let the volume fraction of the fiber be denoted by $V_f$. The coefficients are written as given by Barbero et al.:
 
@@ -116,12 +116,7 @@ Then, using the relations between the engineering constants and the components o
 
 ```math
 \begin{align*}
-E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{({C^*}_{2222} + {C^*}_{2233)} \\
-    E_2 &= \frac{\left( 2  {C^*}_{1111}  {C^*}_{2222} + 2  {C^*}_{1111}  {C^*}_{2233} - 4  {C^*}_{1122}  {C^*}_{1122}\right) \left( {C^*}_{2222} - {C^*}_{2233} + 2  {C^*}_{1212} \right)}{3  {C^*}_{1111}  {C^*}_{2222} + {C^*}_{1111}  {C^*}_{2233} + 2  {C^*}_{1111}  {C^*}_{1212} - 4  {C^*}_{1122}  {C^*}_{1122}} \\
-    G_{12} &= G_{13} = {C^*}_{1313} \\
-    \nu_{12} &= \nu_{13} = \frac{{C^*}_{1122}}{ {C^*}_{2222} + {C^*}_{2233}} \\
-    \nu_{23} &= \frac{ {C^*}_{1111}  {C^*}_{2222} + 3  {C^*}_{1111}  {C^*}_{2233} - 2  {C^*}_{1111}  {C^*}_{1212} - 4  {C^*}_{1122}  {C^*}_{1122}}{3  {C^*}_{1111}  {C^*}_{2222} + {C^*}_{1111}  {C^*}_{2233} + 2  {C^*}_{1111}  {C^*}_{1212} - 4  {C^*}_{1122}  {C^*}_{1122}} \\
-    G_{23} &= \frac{E_2}{2(1 + \nu_{23})}
+E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{({C^*}_{2222} + {C^*}_{2233)} 
 \end{align*}
 ```
 
