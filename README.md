@@ -141,8 +141,63 @@ G_{12} &= G_{13} = {C^*}_{1313}
 G_{23} = \frac{E_{2}}{2 (1 + \nu_{23})}
 ```
 
+
 ## References
 - [Barbero et al.](#) (EJ Barbero and R Luciano. Micromechanical formulas for the relaxation tensor of linear viscoelastic
 composites with transversely isotropic fibers. International Journal of Solids and Structures, 32(13):
 1859–1872, 1995.)
+
+
+# How to use?
+
+This Python script allows you to specify material properties via command-line arguments and calculates certain material constants. You can also save the results to a CSV file.
+
+## Usage
+
+To run the script, follow these steps:
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone [https://github.com/your-username/your-repo.git](https://github.com/Jamal-dev/Periodic-Microstructure)
+   cd your-repo
+   ```
+
+2. Install the required packages using the provided `requirements.txt` file:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the script with the desired material properties. Replace the placeholders with your specific values:
+
+   ```bash
+   periodic_microstructure_model.py --e_f 241 --nu_f 0.2 --e_m 3.12 --nu_m 0.38 --vol_f 0.4
+   ```
+
+   You can specify the values for `--e_f`, `--nu_f`, `--e_m`, `--nu_m`, and `--vol_f`. The script will calculate and display certain material constants.
+
+4. The script will also save the results to a CSV file named `material_properties.csv`.
+
+## Arguments
+
+- `--e_f`: Young's Modulus for the fiber.
+- `--nu_f`: Poisson's Ratio for the fiber.
+- `--e_m`: Young's Modulus for the matrix.
+- `--nu_m`: Poisson's Ratio for the matrix.
+- `--vol_f`: Volume Fraction of the fiber.
+
+## Requirements
+
+To install the required packages, use the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+Make sure you have Python and pip installed on your system.
+
+Have fun working with your material properties calculations!
+```
+
 
