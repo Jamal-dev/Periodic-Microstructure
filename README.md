@@ -159,8 +159,8 @@ To run the script, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone [https://github.com/your-username/your-repo.git](https://github.com/Jamal-dev/Periodic-Microstructure)
-   cd your-repo
+   git clone https://github.com/Jamal-dev/Periodic-Microstructure
+   cd Periodic-Microstructure
    ```
 
 2. Install the required packages using the provided `requirements.txt` file:
@@ -172,7 +172,7 @@ To run the script, follow these steps:
 3. Run the script with the desired material properties. Replace the placeholders with your specific values:
 
    ```bash
-   periodic_microstructure_model.py --e_f 241 --nu_f 0.2 --e_m 3.12 --nu_m 0.38 --vol_f 0.4
+   python periodic_microstructure_model.py --e_f 241 --nu_f 0.2 --e_m 3.12 --nu_m 0.38 --vol_f 0.4
    ```
 
    You can specify the values for `--e_f`, `--nu_f`, `--e_m`, `--nu_m`, and `--vol_f`. The script will calculate and display certain material constants.
