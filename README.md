@@ -115,8 +115,8 @@ Then the equivalent transversely isotropic tensor is obtained by averaging:
 Then, using the relations between the engineering constants and the components of $\bar{B}$, the following engineering constants can be obtained:
 
 ```math
-\begin{align}
-E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{({C^*}_{2222} + {C^*}_{2233})}
+\begin{align*}
+    E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{({C^*}_{2222} + {C^*}_{2233})}
 	\\ 
 	E_2 &= \frac{\left( 2  {C^*}_{1111}  {C^*}_{2222} 
       + 2  {C^*}_{1111}  {C^*}_{2233}
@@ -145,7 +145,7 @@ E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{({C^*}_{2222} + {C^*}_{2233})}
                 }
 	\\
 	G_{23} &= \frac{E_2} {2 \left(1 + \nu_{23}\right)}
-\end{align}
+\end{align*}
 ```
 
 ## References
