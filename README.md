@@ -118,6 +118,7 @@ Then, using the relations between the engineering constants and the components o
 \begin{align*}
 E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{ ({C^*}_{2222} + {C^*}_{2233})}
 \\
+E_2 &= \frac{\left( 2  {C^*}_{1111}  {C^*}_{2222} + 2  {C^*}_{1111}  {C^*}_{2233} - 4  {C^*}_{1122}  {C^*}_{1122}\right) \left( {C^*}_{2222} - {C^*}_{2233} + 2  {C^*}_{1212} \right)}{3  {C^*}_{1111}  {C^*}_{2222} + {C^*}_{1111}  {C^*}_{2233} + 2  {C^*}_{1111}  {C^*}_{1212} - 4  {C^*}_{1122}  {C^*}_{1122}} \\
 \end{align*}
 ```
 
