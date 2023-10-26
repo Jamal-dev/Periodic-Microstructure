@@ -8,17 +8,48 @@ Let $λ_m$ and $μ_m$ be the Lamé parameters for the matrix, and $λ_f$ and $μ
 
 ```math
 \begin{align}
-{C^*}_{1111} &= λ_m + 2μ_m - (V_f / D) * (S^2_3 / μ_m^2 - (2 * S_6 * S_3) / (μ_m^2 * g) - (a * S_3) / (μ_m * c) + (S^2_6 - S^2_7) / (μ_m^2 * g^2) + (a * S_6 + b * S_7) / (c * μ_m * g) + (a^2 - b^2) / (4 * c^2))  
-\\
-{C^*}_{1122} &= λ_m + (V_f * b / D) * ((S_3 / (2 * c * μ_m)) - (S_6 - S_7) / (2 * c * μ_m * g) - (a + b) / (4 * c^2))  
-\\
-{C^*}_{2233} &= λ_m + (V_f / D) * ((a * S_7) / (2 * c * μ_m * g) - (b * a + b^2) / (4 * c^2))  
-\\
-{C^*}_{2222} &= λ_m + 2μ_m - (V_f / D) * (- (a * S_3) / (2 * μ_m * c) + (a * S_6) / (2 * c * μ_m * g) + (a^2 - b^2) / (4 * c^2))  
-\\
-{C^*}_{1212} &= μ_m - V_f * (- (2 * S_3) / μ_m + 1 / (μ_m - μ_f) + (2 * S_7) / (μ_m * (1 - ν_m)))^(-1)  
-\\
-{C^*}_{1313} &= μ_m - V_f * (- (S_3 / μ_m) + 1 / (μ_m - μ_f))^(-1)
+    {C^*}_{1111} &= \lambda_m + 2 \mu_m - \frac{V_f}{D} 
+                                                \left( 
+                                                \frac{S^2_3}{\mu_m^2}
+                                                - \frac{ 2 S_6 S_3}{\mu_m^2 g}
+                                                - \frac{a S_3}{\mu_m c}
+                                                + \frac{S^2_6 - S^2_7}{\mu_m^2 g^2}
+                                                + \frac{ a S_6 + b S_7}{c  \mu_m  g}
+                                                + \frac{ a^2 - b^2}{4 c^2}
+                                                \right)
+    \\
+    {C^*}_{1122} &= \lambda_m + \frac{V_f b}{D} 
+                                                \left( 
+                                                \frac{S_3}{2 c \mu_m}
+                                                -\frac{S_6 - S_7}{2 c \mu_m g}
+                                                -\frac{a + b}{4 c^2}
+                                                \right)
+    \\
+    {C^*}_{2233} &= \lambda_m + \frac{V_f }{D} 
+                                                \left( 
+                                                \frac{a S_7}{2 c \mu_m g }
+                                                -\frac{b a + b^2 }{4 c^2}
+                                                \right)
+    \\
+    {C^*}_{2222} &= \lambda_m + 2 \mu_m - \frac{V_f}{D} 
+                                                \left( 
+                                                - \frac{a S_3}{2\mu_m c}
+                                                + \frac{ a S_6 }{2 c \mu_m  g}
+                                                + \frac{ a^2 - b^2}{4 c^2}
+                                                \right)
+    \\
+    {C^*}_{1212} &= \mu_m - V_f 
+                                                \left( 
+                                                - \frac{2 S_3}{\mu_m }
+                                                + \frac{ 1 }{\mu_m -\mu_f}
+                                                + \frac{ 2 S_7}{\mu_m \left(1-\nu_m\right)}
+                                                \right)^{-1}
+    \\
+    {C^*}_{1313} &= \mu_m - V_f 
+                                                \left( 
+                                                - \frac{S_3}{\mu_m }
+                                                + \frac{ 1 }{\mu_m -\mu_f}
+                                                \right)^{-1}
 \end{align}
 ```
 
