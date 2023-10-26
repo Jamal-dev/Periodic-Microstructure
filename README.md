@@ -7,17 +7,19 @@ In the following text, we always assume that the fibers are aligned with the x-a
 Let $λ_m$ and $μ_m$ be the Lamé parameters for the matrix, and $λ_f$ and $μ_f$ be the parameters for the fiber material. Let the volume fraction of the fiber be denoted by $V_f$. The coefficients are written as given by Barbero et al.:
 
 ```math
-{C^*}_{1111} = λ_m + 2μ_m - (V_f / D) * (S^2_3 / μ_m^2 - (2 * S_6 * S_3) / (μ_m^2 * g) - (a * S_3) / (μ_m * c) + (S^2_6 - S^2_7) / (μ_m^2 * g^2) + (a * S_6 + b * S_7) / (c * μ_m * g) + (a^2 - b^2) / (4 * c^2))  
-
-{C^*}_{1122} = λ_m + (V_f * b / D) * ((S_3 / (2 * c * μ_m)) - (S_6 - S_7) / (2 * c * μ_m * g) - (a + b) / (4 * c^2))  
-
-{C^*}_{2233} = λ_m + (V_f / D) * ((a * S_7) / (2 * c * μ_m * g) - (b * a + b^2) / (4 * c^2))  
-
-{C^*}_{2222} = λ_m + 2μ_m - (V_f / D) * (- (a * S_3) / (2 * μ_m * c) + (a * S_6) / (2 * c * μ_m * g) + (a^2 - b^2) / (4 * c^2))  
-
-{C^*}_{1212} = μ_m - V_f * (- (2 * S_3) / μ_m + 1 / (μ_m - μ_f) + (2 * S_7) / (μ_m * (1 - ν_m)))^(-1)  
-
-{C^*}_{1313} = μ_m - V_f * (- (S_3 / μ_m) + 1 / (μ_m - μ_f))^(-1)
+\begin{align}
+{C^*}_{1111} &= λ_m + 2μ_m - (V_f / D) * (S^2_3 / μ_m^2 - (2 * S_6 * S_3) / (μ_m^2 * g) - (a * S_3) / (μ_m * c) + (S^2_6 - S^2_7) / (μ_m^2 * g^2) + (a * S_6 + b * S_7) / (c * μ_m * g) + (a^2 - b^2) / (4 * c^2))  
+\\
+{C^*}_{1122} &= λ_m + (V_f * b / D) * ((S_3 / (2 * c * μ_m)) - (S_6 - S_7) / (2 * c * μ_m * g) - (a + b) / (4 * c^2))  
+\\
+{C^*}_{2233} &= λ_m + (V_f / D) * ((a * S_7) / (2 * c * μ_m * g) - (b * a + b^2) / (4 * c^2))  
+\\
+{C^*}_{2222} &= λ_m + 2μ_m - (V_f / D) * (- (a * S_3) / (2 * μ_m * c) + (a * S_6) / (2 * c * μ_m * g) + (a^2 - b^2) / (4 * c^2))  
+\\
+{C^*}_{1212} &= μ_m - V_f * (- (2 * S_3) / μ_m + 1 / (μ_m - μ_f) + (2 * S_7) / (μ_m * (1 - ν_m)))^(-1)  
+\\
+{C^*}_{1313} &= μ_m - V_f * (- (S_3 / μ_m) + 1 / (μ_m - μ_f))^(-1)
+\end{align}
 ```
 
 where,
