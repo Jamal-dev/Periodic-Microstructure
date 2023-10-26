@@ -114,7 +114,7 @@ Then the equivalent transversely isotropic tensor is obtained by averaging:
 
 Then, using the relations between the engineering constants and the components of $\bar{B}$, the following engineering constants can be obtained:
 
-```math
+$$
 \begin{align*}
 E_1 &= {C^*}_{1111} - \frac{2  {C^*}_{1122}}{ ({C^*}_{2222} + {C^*}_{2233})}
 \\
@@ -137,7 +137,7 @@ G_{12} &= G_{13} = {C^*}_{1313}
 \\
 G_{23} &= \frac{E_{2}}{2 (1 + \nu_{23})}
 \end{align*}
-```
+$$
 
 ## References
 - [Barbero et al.](#) (EJ Barbero and R Luciano. Micromechanical formulas for the relaxation tensor of linear viscoelastic
