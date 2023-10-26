@@ -38,7 +38,7 @@ g &= 2 - 2 * ν_m
 \end{align}
 ```
 
-The constants $S_3, S_6$, and $S_7$ for the composite reinforced by long circular cylindrical fibers, periodically arranged in a square array, aligned with the x-axis with a2 = a3 are given in [Barbero et al.]:
+The constants $S_3, S_6$, and $S_7$ for the composite reinforced by long circular cylindrical fibers, periodically arranged in a square array, aligned with the x-axis with $a_2 = a_3$ are given in [Barbero et al.]:
 
 ```math
 \begin{align}
@@ -64,7 +64,7 @@ Then the equivalent transversely isotropic tensor is obtained by averaging:
 \bar{B} = (1 / π) \int_0^\pi B (\theta) dθ
 ```
 
-Then, using the relations between the engineering constants and the components of \Bar{\ten{B}}, the following engineering constants can be obtained:
+Then, using the relations between the engineering constants and the components of $\bar{B}$, the following engineering constants can be obtained:
 
 ```math
 \begin{align}
